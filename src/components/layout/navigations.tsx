@@ -1,16 +1,15 @@
-import { Magicpen } from "iconsax-react";
+import { Magicpen, Icon } from "iconsax-react";
 import Link from "next/link";
 import React from "react";
+import { Button } from "../ui/button";
 
 const Navigations = () => {
   return (
     <nav className="container flex my-7">
-      <Link
-        href="#"
-        className="flex gap-1 items-center justify-center w-fit bg-primary p-2 rounded-8 text-white"
-      >
-        <Magicpen color="currentColor" size={24} />
-        <span className="button-2">خودت طراحیش کن!</span>
+      <Link href="#">
+        <Button width="sm" Icon={Magicpen}>
+          خودت طراحیش کن!
+        </Button>
       </Link>
       <ul className=" flex justify-evenly items-center flex-1">
         <li>پوشاک</li>
