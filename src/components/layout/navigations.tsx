@@ -1,4 +1,4 @@
-import { Magicpen, Icon } from "iconsax-react";
+import { Magicpen } from "iconsax-react";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";

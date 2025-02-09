@@ -2,7 +2,7 @@ import SectionWrapper from "@/components/ui/section-wrapper";
 import React from "react";
 import SectionTitle from "../common/section-title";
 import { LikeShapes } from "iconsax-react";
-import products, { designs } from "@/constants/products";
+import { designs } from "@/constants/products";
 import ProductCard from "../common/product-card";
 
 const PopularDesigns = () => {
