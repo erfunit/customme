@@ -1,3 +1,4 @@
+import AppropriateGift from "@/components/module/home/appropriate-gift";
 import { BestDesigners } from "@/components/module/home/best-designers";
 import { Categories } from "@/components/module/home/categories";
 import Hero from "@/components/module/home/hero";
@@ -14,6 +15,7 @@ export default function Page() {
       <SpecialSell />
       <PopularDesigns />
       <BestDesigners />
+      <AppropriateGift />
     </div>
   );
 }
