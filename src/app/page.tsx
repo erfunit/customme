@@ -6,6 +6,7 @@ import NewestDesigns from '@/components/module/home/newest-designs';
 import PopularDesigns from '@/components/module/home/popular-designs';
 import ProductsPreview from '@/components/module/home/products-preview';
 import SpecialSell from '@/components/module/home/special-sell/speciall-sell';
+import WeddingCard from '@/components/module/home/wedding-card';
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
       <BestDesigners />
       <AppropriateGift />
       <NewestDesigns />
+      <WeddingCard />
     </div>
   );
 }
