@@ -12,6 +12,7 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.config({
     extends: ['next', 'prettier'],
+    ignorePatterns: ['.next', 'node_modules', '.husky'],
   }),
 ];
 export default eslintConfig;
