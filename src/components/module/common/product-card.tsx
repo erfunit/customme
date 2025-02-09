@@ -1,9 +1,20 @@
+import { Button } from "@/components/ui/button";
 import { PrdocutItem } from "@/constants/products";
-import { Heart } from "iconsax-react";
+import { GalleryAdd, Heart } from "iconsax-react";
 import Image from "next/image";
 import React from "react";
 
-const ProductCard = ({ title, image, description, price }: PrdocutItem) => {
+type ProductCardProps = PrdocutItem & {
+  isDesign?: boolean;
+};
+
+const ProductCard = ({
+  title,
+  image,
+  description,
+  price,
+  isDesign = false,
+}: ProductCardProps) => {
   return (
     <div className="w-full rounded-16 border border-gray-5 hover:border-gray-8 transition-all p-16">
       <div className="object-cover relative aspect-square w-full rounded-8 overflow-hidden">
@@ -14,7 +25,7 @@ const ProductCard = ({ title, image, description, price }: PrdocutItem) => {
           <div className="bg-pink-500 w-20 aspect-square rounded-full" />
           <div className="bg-purple-500 w-20 aspect-square rounded-full" />
           <div className="bg-cyan-500 w-20 aspect-square rounded-full" />
-      </div>
+        </div>
       </div>
       <div className="w-full pt-3 flex flex-col gap-3 mb-6 text-black">
         <div className="flex w-full items-center justify-between">
@@ -25,11 +36,17 @@ const ProductCard = ({ title, image, description, price }: PrdocutItem) => {
         </div>
         <p className="body-4">{description}</p>
       </div>
-      <div className="flex">
-        <div className="mr-auto">
-          <span className="heading-5">{price.toLocaleString()}</span>{" "}
-          <span className="heading-6">تومان</span>
-        </div>
+      <div className="flex w-full">
+        {!isDesign ? (
+          <div className="mr-auto">
+            <span className="heading-5">{price?.toLocaleString()}</span>{" "}
+            <span className="heading-6">تومان</span>
+          </div>
+        ) : (
+          <Button width="full" variant="stroke" Icon={GalleryAdd}>
+            افزوردن به گالری
+          </Button>
+        )}
       </div>
     </div>
   );
