@@ -1,3 +1,4 @@
+import { BestDesigners } from "@/components/module/home/best-designers";
 import { Categories } from "@/components/module/home/categories";
 import Hero from "@/components/module/home/hero";
 import PopularDesigns from "@/components/module/home/popular-designs";
@@ -12,6 +13,7 @@ export default function Page() {
       <ProductsPreview />
       <SpecialSell />
       <PopularDesigns />
+      <BestDesigners />
     </div>
   );
 }
