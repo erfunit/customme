@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import type React from "react"; // Import React
 import { iranYekanX } from "@/utils/fonts";
+import MainLayout from "@/components/layout/main-layout";
 
 export const metadata: Metadata = {
   title: "Your App Name",
@@ -15,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html dir="rtl" lang="en" className={iranYekanX.variable}>
-      <body>{children}</body>
+      <body>
+        <MainLayout>{children}</MainLayout>
+      </body>
     </html>
   );
 }
