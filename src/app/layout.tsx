@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description: 'Your app description',
 };
 
-// test comment
 export default function RootLayout({
   children,
 }: {
