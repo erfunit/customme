@@ -11,7 +11,7 @@ const Navbar = () => {
           src="/logo/header.svg"
           alt="costomme logo"
           width={200}
-          height={60}
+          height={55}
         />
       </div>
       <div>

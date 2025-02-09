@@ -30,7 +30,7 @@ const Hero = () => {
         src="/images/hero-image.png"
         alt="CUSTOMME online shop"
         width={730}
-        height={800}
+        height={426}
       />
     </div>
   );
