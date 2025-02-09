@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import React from "react";
-import { Brush2 } from "iconsax-react";
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
+import React from 'react';
+import { Brush2 } from 'iconsax-react';
 
 const Hero = () => {
   return (

@@ -1,9 +1,9 @@
-import { MedalStar } from "iconsax-react";
-import React from "react";
-import SectionTitle from "../../common/section-title";
-import CategoryCard from "./category-card";
-import { categoriesList } from "./categories-list";
-import SectionWrapper from "@/components/ui/section-wrapper";
+import { MedalStar } from 'iconsax-react';
+import React from 'react';
+import SectionTitle from '../../common/section-title';
+import CategoryCard from './category-card';
+import { categoriesList } from './categories-list';
+import SectionWrapper from '@/components/ui/section-wrapper';
 
 const Categories = () => {
   return (

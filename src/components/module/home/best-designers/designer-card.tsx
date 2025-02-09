@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { DesignerItem } from "@/constants/designers";
-import { ProfileAdd } from "iconsax-react";
-import Image from "next/image";
-import React from "react";
+import { Button } from '@/components/ui/button';
+import { DesignerItem } from '@/constants/designers';
+import { ProfileAdd } from 'iconsax-react';
+import Image from 'next/image';
+import React from 'react';
 
 type DesignerCardProps = DesignerItem & {};
 

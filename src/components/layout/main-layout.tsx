@@ -1,8 +1,8 @@
-import React from "react";
-import TopBanner from "./top-banner";
-import Navbar from "./navbar";
-import Navigations from "./navigations";
-import { Footer } from "./footer";
+import React from 'react';
+import TopBanner from './top-banner';
+import Navbar from './navbar';
+import Navigations from './navigations';
+import { Footer } from './footer';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (

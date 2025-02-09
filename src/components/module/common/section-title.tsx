@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Icon } from "iconsax-react";
-import Link from "next/link";
-import React from "react";
+import { Button } from '@/components/ui/button';
+import { Icon } from 'iconsax-react';
+import Link from 'next/link';
+import React from 'react';
 
 type SectionTitleProps = {
   Icon: Icon;

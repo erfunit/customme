@@ -1,7 +1,7 @@
-import { LoginCurve, SearchNormal1, ShoppingCart } from "iconsax-react";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import { LoginCurve, SearchNormal1, ShoppingCart } from 'iconsax-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const Navbar = () => {
   return (
@@ -22,14 +22,14 @@ const Navbar = () => {
       </div>
       <div className="flex gap-48">
         <Link
-          href={"#"}
+          href={'#'}
           className="text-gray-10 flex items-center gap-1 hover:text-primary-shade-6 transition-all"
         >
           <LoginCurve size={24} color="currentColor" />
           <span>ورود و ثبت نام</span>
         </Link>
         <Link
-          href={"#"}
+          href={'#'}
           className="text-gray-10 flex items-center gap-1 hover:text-primary-shade-6 transition-all"
         >
           <ShoppingCart size={24} color="currentColor" />

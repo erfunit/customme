@@ -1,15 +1,15 @@
-import React from "react";
-import { ButtonProps } from "./button.type";
-import { buttonClasses } from "./styles";
+import React from 'react';
+import { ButtonProps } from './button.type';
+import { buttonClasses } from './styles';
 
 const Button = ({
   Icon,
   iconLeft = false,
-  size = "md",
-  color = "primary",
+  size = 'md',
+  color = 'primary',
   isDisabled = false,
-  variant = "fill",
-  width = "lg",
+  variant = 'fill',
+  width = 'lg',
   ...props
 }: ButtonProps) => {
   return (

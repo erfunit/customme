@@ -1,9 +1,9 @@
-import SectionWrapper from "@/components/ui/section-wrapper";
-import React from "react";
-import SectionTitle from "../../common/section-title";
-import { Star1 } from "iconsax-react";
-import designers from "@/constants/designers";
-import DesignerCard from "./designer-card";
+import SectionWrapper from '@/components/ui/section-wrapper';
+import React from 'react';
+import SectionTitle from '../../common/section-title';
+import { Star1 } from 'iconsax-react';
+import designers from '@/constants/designers';
+import DesignerCard from './designer-card';
 
 const BestDesigners = () => {
   return (

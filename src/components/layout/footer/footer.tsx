@@ -1,7 +1,7 @@
-import React from "react";
-import { Button } from "../../ui/button";
-import { Facebook, Instagram, Xrp, Youtube } from "iconsax-react";
-import { footerLinks } from "./footer-links";
+import React from 'react';
+import { Button } from '../../ui/button';
+import { Facebook, Instagram, Xrp, Youtube } from 'iconsax-react';
+import { footerLinks } from './footer-links';
 
 const Footer = () => {
   return (

@@ -1,9 +1,9 @@
-import SectionWrapper from "@/components/ui/section-wrapper";
-import React from "react";
-import SectionTitle from "../../common/section-title";
-import { DiscountShape } from "iconsax-react";
-import Image from "next/image";
-import { specialSellList } from "./special-sell-list";
+import SectionWrapper from '@/components/ui/section-wrapper';
+import React from 'react';
+import SectionTitle from '../../common/section-title';
+import { DiscountShape } from 'iconsax-react';
+import Image from 'next/image';
+import { specialSellList } from './special-sell-list';
 
 const SpecialSell = () => {
   return (
@@ -12,7 +12,7 @@ const SpecialSell = () => {
       <div className="w-full grid grid-cols-2 gap-3 my-3">
         <div className="relative aspect-square  overflow-hidden rounded-16">
           <Image
-            src={"/images/special-discount/furniture.jpg"}
+            src={'/images/special-discount/furniture.jpg'}
             className="object-cover z-0"
             fill
             alt="discount"

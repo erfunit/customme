@@ -1,1 +1,1 @@
-export { default as BestDesigners } from "./best-designers";
+export { default as BestDesigners } from './best-designers';

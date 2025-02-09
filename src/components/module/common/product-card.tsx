@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { PrdocutItem } from "@/constants/products";
-import { GalleryAdd, Heart } from "iconsax-react";
-import Image from "next/image";
-import React from "react";
+import { Button } from '@/components/ui/button';
+import { PrdocutItem } from '@/constants/products';
+import { GalleryAdd, Heart } from 'iconsax-react';
+import Image from 'next/image';
+import React from 'react';
 
 type ProductCardProps = PrdocutItem & {
   isDesign?: boolean;
@@ -41,7 +41,7 @@ const ProductCard = ({
       <div className="flex w-full">
         {!isDesign ? (
           <div className="mr-auto">
-            <span className="heading-5">{price?.toLocaleString()}</span>{" "}
+            <span className="heading-5">{price?.toLocaleString()}</span>{' '}
             <span className="heading-6">تومان</span>
           </div>
         ) : (
