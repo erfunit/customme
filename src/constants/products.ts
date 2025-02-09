@@ -56,7 +56,7 @@ const products: PrdocutItem[] = [
   },
 ];
 
-const designs: Omit<PrdocutItem, "price">[] = [
+export const designs: Omit<PrdocutItem, "price">[] = [
   {
     title: "کلاه مردانه",
     description: "دارای رنگ‌بندی، قابل طراحی",
